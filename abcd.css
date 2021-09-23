@@ -1,0 +1,26 @@
+.container {
+    height: 170vh;
+}
+@keyframes bubble {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    25% {
+        
+        opacity: 0.4;
+    }
+    50% {
+
+        opacity: 0.6;
+    }
+    70% {
+
+        opacity: 0.8;
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(-167vh);
+    }
+}
